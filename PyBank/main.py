@@ -152,6 +152,7 @@
   },
   {
    "cell_type": "code",
+<<<<<<< Updated upstream
    "execution_count": 24,
    "metadata": {},
    "outputs": [
@@ -172,6 +173,11 @@
      "output_type": "execute_result"
     }
    ],
+=======
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [],
+>>>>>>> Stashed changes
    "source": [
     "header_1 = \"Financial Analysis\"\n",
     "header_2 = \"______________________________________________________\"\n",
@@ -180,6 +186,7 @@
     "sum_pnl_summary = f'Total: ${sum_pnl}'\n",
     "mean_pnl_summary = f'Average Change: ${mean_pnl}'\n",
     "greatest_inc_summary = f'Greatest Increase in Profits: {max_date} (${max_diff})'\n",
+<<<<<<< Updated upstream
     "greatest_dec_summary = f'Greatest Decrease in Profits: {min_date} (${min_diff})'\n",
     "\n",
     "summary_list = {header_1:[\n",
@@ -192,11 +199,18 @@
     "    greatest_dec_summary\n",
     "    ]}\n",
     "summary_list\n"
+=======
+    "greatest_dec_summary = f'Greatest Decrease in Profits: {min_date} (${min_diff})'\n"
+>>>>>>> Stashed changes
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< Updated upstream
    "execution_count": 21,
+=======
+   "execution_count": 26,
+>>>>>>> Stashed changes
    "metadata": {},
    "outputs": [
     {
@@ -243,8 +257,20 @@
     }
    ],
    "source": [
+<<<<<<< Updated upstream
     "with open(\"Analysis/analysis.txt\", \"w\") as output:\n",
     "    output.write(summary_list)"
+=======
+    "with open(\"Analysis/analysis.txt\",\"w\") as text_file:\n",
+    "        print(header_1)\n",
+    "        print(header_2)\n",
+    "        print(header_3)\n",
+    "        print(total_months_summary)\n",
+    "        print(sum_pnl_summary)\n",
+    "        print(mean_pnl_summary)\n",
+    "print(greatest_inc_summary)\n",
+    "print(greatest_dec_summary)"
+>>>>>>> Stashed changes
    ]
   }
  ],
