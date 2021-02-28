@@ -12,7 +12,7 @@ The result is then printed.
 
 Finally, the script writes the result to a .txt file.
 
-#PyPoll:
+# PyPoll:
 This script identifies every candidate that runs for office, their associated vote count and percentage of overall votes.
 
 Then it ranks the candidates by votes received and returns the winner.
